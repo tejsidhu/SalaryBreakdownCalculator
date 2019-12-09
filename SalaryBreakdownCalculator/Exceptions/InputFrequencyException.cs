@@ -2,6 +2,7 @@
 
 namespace SalaryBreakdownCalculator.Exceptions
 {
+    [Serializable]
     public class InputFrequencyException:Exception
     {
         public InputFrequencyException()

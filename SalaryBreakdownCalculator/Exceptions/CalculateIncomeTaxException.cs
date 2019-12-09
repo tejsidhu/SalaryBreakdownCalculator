@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace SalaryBreakdownCalculator.Exceptions
 {
+    [Serializable]
     class CalculateIncomeTaxException : Exception
     {
         public CalculateIncomeTaxException()

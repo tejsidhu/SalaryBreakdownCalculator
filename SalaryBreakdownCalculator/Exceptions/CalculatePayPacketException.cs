@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SalaryBreakdownCalculator.Exceptions
 {
+    [Serializable]
     class CalculatePayPacketException : Exception
     {
         public CalculatePayPacketException()
